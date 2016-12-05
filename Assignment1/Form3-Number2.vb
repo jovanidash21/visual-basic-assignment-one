@@ -12,8 +12,6 @@
             MessageBox.Show("Hello " + firstname + " " + lastname & vbNewLine & "Your Student Number is " + studentnumber,
                 "Greetings!", MessageBoxButtons.OK, MessageBoxIcon.None)
         End If
-
-
     End Sub
 
     Private Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click
