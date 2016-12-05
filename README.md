@@ -9,6 +9,8 @@
 </p>
 <p align="center"> 
 	<img src="https://raw.githubusercontent.com/jovanidash21/visual-basic-assignment-one/master/Screenshots/5.png">
+</p>
+<p align="center"> 
 	<img src="https://raw.githubusercontent.com/jovanidash21/visual-basic-assignment-one/master/Screenshots/6.png">
 </p>
 
