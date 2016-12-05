@@ -35,17 +35,17 @@
         Dim firstnumber As Double
         Dim secondnumber As Double
 
-        If Trim(FirstNumberTextBox.Text) = "" And Trim(SecondNumberTextBox.Text) = "" Then
+        If FirstNumberTextBox.Text = "" And SecondNumberTextBox.Text = "" Then
             FirstNumberTextBox.Text = "0"
             SecondNumberTextBox.Text = "0"
-        ElseIf Trim(FirstNumberTextBox.Text) = "" Then
+        ElseIf FirstNumberTextBox.Text = "" Then
             FirstNumberTextBox.Text = "0"
-        ElseIf Trim(SecondNumberTextBox.Text) = "" Then
+        ElseIf SecondNumberTextBox.Text = "" Then
             SecondNumberTextBox.Text = "0"
         End If
 
-        firstnumber = FirstNumberTextBox.Text
-        secondnumber = SecondNumberTextBox.Text
+        firstnumber = Val(FirstNumberTextBox.Text)
+        secondnumber = Val(SecondNumberTextBox.Text)
 
         SumTextBox.Text = Format(firstnumber + secondnumber, "0.000")
         DifferenceTextBox.Text = Format(firstnumber - secondnumber, "0.000")
