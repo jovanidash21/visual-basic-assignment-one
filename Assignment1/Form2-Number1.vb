@@ -32,20 +32,8 @@
         End If
     End Sub
     Private Sub ComputeButton_Click(sender As Object, e As EventArgs) Handles ComputeButton.Click
-        Dim firstnumber As Double
-        Dim secondnumber As Double
-
-        If FirstNumberTextBox.Text = "" And SecondNumberTextBox.Text = "" Then
-            FirstNumberTextBox.Text = "0"
-            SecondNumberTextBox.Text = "0"
-        ElseIf FirstNumberTextBox.Text = "" Then
-            FirstNumberTextBox.Text = "0"
-        ElseIf SecondNumberTextBox.Text = "" Then
-            SecondNumberTextBox.Text = "0"
-        End If
-
-        firstnumber = Val(FirstNumberTextBox.Text)
-        secondnumber = Val(SecondNumberTextBox.Text)
+        Dim firstnumber As Double = Val(FirstNumberTextBox.Text)
+        Dim secondnumber As Double = Val(SecondNumberTextBox.Text)
 
         SumTextBox.Text = Format(firstnumber + secondnumber, "0.000")
         DifferenceTextBox.Text = Format(firstnumber - secondnumber, "0.000")

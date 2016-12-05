@@ -1,15 +1,15 @@
 ﻿Public Class FormNumber2
 
     Private Sub ComputeButton_Click(sender As Object, e As EventArgs) Handles SubmitButton.Click
-        Dim firstname As String
-        Dim lastname As String
-        Dim studentnumber As String
+        Dim firstname As String = FirstNameTextBox.Text
+        Dim lastname As String = LastNameTextBox.Text
+        Dim studentnumber As String = StudentNumberTextBox.Text
 
-        If FirstNameTextBox.Text = "" Or LastNameTextBox.Text = "" Or StudentNumberTextBox.Text = "" Then
+        If firstname = "" Or lastname = "" Or studentnumber = "" Then
             MessageBox.Show("Please Fill Out The Form",
                 "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
-            MessageBox.Show("Hello " + FirstNameTextBox.Text + " " + LastNameTextBox.Text & vbNewLine & "Your Student Number is " + StudentNumberTextBox.Text,
+            MessageBox.Show("Hello " + firstname + " " + lastname & vbNewLine & "Your Student Number is " + studentnumber,
                 "Greetings!", MessageBoxButtons.OK, MessageBoxIcon.None)
         End If
 
