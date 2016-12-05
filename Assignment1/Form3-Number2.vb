@@ -6,7 +6,7 @@
         Dim studentnumber As String = StudentNumberTextBox.Text
 
         If firstname = "" Or lastname = "" Or studentnumber = "" Then
-            MessageBox.Show("Please Fill Out The Form",
+            MessageBox.Show("Please Fill Out The Form!",
                 "Error!", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
             MessageBox.Show("Hello " + firstname + " " + lastname & vbNewLine & "Your Student Number is " + studentnumber,

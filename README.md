@@ -12,6 +12,7 @@
 </p>
 <p align="center"> 
 	<img src="https://raw.githubusercontent.com/jovanidash21/visual-basic-assignment-one/master/Screenshots/6.png">
+	<img src="https://raw.githubusercontent.com/jovanidash21/visual-basic-assignment-one/master/Screenshots/7.png">
 </p>
 
 ## Installation
