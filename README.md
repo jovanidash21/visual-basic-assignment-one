@@ -14,6 +14,10 @@
 	<img src="https://raw.githubusercontent.com/jovanidash21/visual-basic-assignment-one/master/Screenshots/6.png">
 </p>
 
+## Installation
+1. Clone or download this repository.
+2. Open and Run using Visual Studio or any other alternative application.
+
 ## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
 - [Facebook](https://facebook.com/jovani.cadornawarguez)
