@@ -1,11 +1,8 @@
 ﻿Public Class FormNumber2
 
     Private Sub ComputeButton_Click(sender As Object, e As EventArgs) Handles SubmitButton.Click
-        Me.Hide()
-        FormNumber2point1.Show()
-        FormNumber2point1.FirstNameValue.Text = FirstNameTextBox.Text
-        FormNumber2point1.LastNameValue.Text = LastNameTextBox.Text
-        FormNumber2point1.StudentNumberValue.Text = StudentNumberTextBox.Text
+        MessageBox.Show("Hello " + FirstNameTextBox.Text + " " + LastNameTextBox.Text & vbNewLine & "Your Student Number is " + StudentNumberTextBox.Text, "Greetings!",
+            MessageBoxButtons.OK, MessageBoxIcon.None)
     End Sub
 
     Private Sub BackButton_Click(sender As Object, e As EventArgs) Handles BackButton.Click
