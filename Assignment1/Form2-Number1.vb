@@ -35,6 +35,15 @@
         Dim firstnumber As Double
         Dim secondnumber As Double
 
+        If Trim(FirstNumberTextBox.Text) = "" And Trim(SecondNumberTextBox.Text) = "" Then
+            FirstNumberTextBox.Text = "0"
+            SecondNumberTextBox.Text = "0"
+        ElseIf Trim(FirstNumberTextBox.Text) = "" Then
+            FirstNumberTextBox.Text = "0"
+        ElseIf Trim(SecondNumberTextBox.Text) = "" Then
+            SecondNumberTextBox.Text = "0"
+        End If
+
         firstnumber = FirstNumberTextBox.Text
         secondnumber = SecondNumberTextBox.Text
 
