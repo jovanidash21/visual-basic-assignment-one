@@ -9,7 +9,7 @@
     End Sub
 
     Private Sub FirstNumberTextBox_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles FirstNumberTextBox.KeyPress
-        If FirstNumberTextBox.Text.Length > 11 Then
+        If FirstNumberTextBox.Text.Length > 9 Then
             e.Handled = True
             Return
         End If
@@ -21,7 +21,7 @@
     End Sub
 
     Private Sub SecondNumberTextBox_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles SecondNumberTextBox.KeyPress
-        If SecondNumberTextBox.Text.Length > 11 Then
+        If SecondNumberTextBox.Text.Length > 9 Then
             e.Handled = True
             Return
         End If
