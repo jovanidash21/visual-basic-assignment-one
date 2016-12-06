@@ -75,6 +75,7 @@ Partial Class FormNumber1
         Me.SecondNumberTextBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
         Me.SecondNumberTextBox.Font = New System.Drawing.Font("Britannic Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SecondNumberTextBox.Location = New System.Drawing.Point(158, 48)
+        Me.SecondNumberTextBox.MaxLength = 9
         Me.SecondNumberTextBox.Name = "SecondNumberTextBox"
         Me.SecondNumberTextBox.Size = New System.Drawing.Size(114, 25)
         Me.SecondNumberTextBox.TabIndex = 3
