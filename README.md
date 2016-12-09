@@ -17,7 +17,7 @@
 
 ## Installation
 1. Clone or download this repository.
-2. Open and Run using Visual Studio or any other alternative application.
+2. Open and Start using Visual Studio or any other alternative application.
 
 ## Connect
 - [Wordpress](https://jovaniwarguez.wordpress.com/)
