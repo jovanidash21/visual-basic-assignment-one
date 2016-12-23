@@ -1,4 +1,4 @@
-# Visual Basic Assignment One
+# Visual Basic - Assignment One
 ---
 ## Screenshots
 <p align="center"> 
